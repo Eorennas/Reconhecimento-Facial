@@ -58,7 +58,7 @@ def mostrar_resultados_de_prediccao(image_path, prediccao):
 
     pil_image = Image.open(image_path).convert("RGB")
     draw = ImageDraw.Draw(pil_image)
-    fonte = ImageFont.truetype("Arial.ttf", 25)
+    fonte = ImageFont.truetype("C:\\Users\\rennan\\Documents\\GitHub\\Reconhecimento-Facial\\facial\\Arial.ttf", 25)
 
     for nome, (topo, direita, baixo, left) in prediccao:
 
